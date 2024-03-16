@@ -718,40 +718,16 @@ video {
   flex-wrap: wrap;
 }
 
-.content-evenly {
-  align-content: space-evenly;
-}
-
 .items-center {
   align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 .justify-between {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
 .justify-evenly {
   justify-content: space-evenly;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-52 {
-  gap: 13rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
 }
 
 .self-end {
@@ -760,10 +736,6 @@ video {
 
 .self-center {
   align-self: center;
-}
-
-.justify-self-center {
-  justify-self: center;
 }
 
 .overflow-hidden {
@@ -776,6 +748,18 @@ video {
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-4 {
+  border-width: 4px;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-r-4 {
@@ -792,6 +776,11 @@ video {
   border-right-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.bg-rose-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 113 133 / var(--tw-bg-opacity));
+}
+
 .bg-transparent {
   background-color: transparent;
 }
@@ -801,23 +790,9 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-red {
+.bg-rose-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(139 12 12 / var(--tw-bg-opacity));
-}
-
-.bg-rose-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 113 133 / var(--tw-bg-opacity));
-}
-
-.bg-blue-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 246 255 / var(--tw-bg-opacity));
-}
-
-.p-36 {
-  padding: 9rem;
+  background-color: rgb(253 164 175 / var(--tw-bg-opacity));
 }
 
 .px-4 {
@@ -840,6 +815,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-36 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -850,17 +830,12 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.py-36 {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
-}
-
 .pr-5 {
   padding-right: 1.25rem;
 }
 
-.pt-36 {
-  padding-top: 9rem;
+.text-justify {
+  text-align: justify;
 }
 
 .text-3xl {
